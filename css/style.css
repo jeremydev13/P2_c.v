@@ -1,0 +1,373 @@
+
+    body
+{
+    margin:0px;
+    background-color: white;
+    font-weight: 300;
+}
+
+
+
+
+.conteneur
+{
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@font-face
+{
+    font-family:'Open Sans';
+    src: url("../font/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf")
+}
+
+
+
+
+.aside
+{
+    width:30%;
+    background-color:#feca07 ;
+}
+
+
+
+.image_jeremy
+{
+    width:200px;
+    height:200px;
+    border:3px solid #daaf12 ;
+    border-radius: 50%;
+    
+}
+
+.titre
+{
+    background-color:#3c3a3a ;
+    color:#feca07 ;
+    font-size:xx-large;
+    text-align:center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.contact
+{
+    font-size: medium;
+}
+
+.paragraphecontact
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.paragraphepropos
+{
+    text-align:justify;
+    font-size: medium;
+    padding-left:50px;
+    padding-right:50px;
+}   
+
+.contact
+{
+    margin-top: -20px;
+}
+.propos 
+{
+    margin-bottom: 700px;
+}
+.loisir
+{
+    font-size: medium;
+}
+
+#titre
+{  
+    background-color:#3c3a3a;
+    color: #feca07;
+    font-size:xx-large;
+    margin-top:400px;
+    text-align:center;
+    margin-bottom: 1px;
+}
+
+.colorjeremy
+{
+    color: #feca07;
+}
+.bande 
+{
+    text-decoration: underline #feca07;
+}
+
+.icone
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.icon
+{
+    width: 70px;
+    height: 60px;
+    border:2px solid #3c3a3a;
+    border-radius:50%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fa-dot-circle-o
+{
+    color:#feca07;
+    margin-right: 25px
+}
+.fa-bicycle
+{
+    color:#3c3a3a ;
+}
+.fa-gamepad
+{
+    color:#3c3a3a ;
+}
+
+.fa-camera-retro
+{
+    color:#3c3a3a ;
+}
+.main
+{
+    width: 70%;
+    padding-left: 50px;
+    background-color: white;
+}
+
+h1 
+{
+    font-size:70px;
+    margin-bottom: -30px;
+    margin-top:90px;
+    font-weight: 300;
+}
+
+.metier
+{
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+
+.article
+{
+    width:80%;
+    display:flex;
+}
+
+h3
+{ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: x-large;
+    padding-bottom: 5px;
+}
+
+.fa-graduation-cap
+{
+    color:#feca07;
+    margin-right: 25px;
+}
+
+.fa-briefcase
+{
+    color:#feca07;
+    margin-right: 25px;
+}
+
+.fa-user
+{
+    color:#feca07;
+    margin-right: 25px;
+}
+
+.bande_horizontal
+{
+    width:90%;
+    border:1px solid #feca07;
+    margin-top:-20px;
+}
+.block
+{
+    display:flex;
+}
+
+.paragraphe
+{
+    margin-left: 50px; 
+    width: 70%; 
+    margin-right: 195px;
+}
+.anné
+{ 
+    width: 30%;
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.fa-circle
+{
+    color:#feca07;
+    margin-right: 25px
+}
+
+ 
+ 
+.profession
+{
+    margin-top: 70px;
+}
+
+
+.footer
+{
+    display: flex;
+}
+
+
+.recommandationdroite
+{
+    margin-left:220px;
+
+}
+
+a/*willot1987@hotmail.fr*/
+{
+    color:black;
+    text-decoration:none;
+}
+
+.figure1
+{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+h5
+{
+    margin-top: -15px;
+}
+
+p
+{
+    text-align: justify;
+}
+
+
+
+
+@media all and (min-width:300px)and (max-device-width:800px)
+{
+   .conteneur
+   {
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   
+   .aside
+   {
+       width:100%;
+    }
+
+    .propos
+    {
+        margin-bottom: 0px;
+    }
+    #titre
+    {
+        margin-top: 0px;
+    }
+    
+    .main 
+    {
+        width: 100%;
+       padding-left: 0px;
+    }
+    h1
+    {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .willot
+    {
+        text-align: center;
+    }
+
+    .block
+    {
+        display: block;
+    }
+    .footer
+    {
+        display:block;
+    }
+
+    .formation
+    {
+        margin-left: 40px;
+    }
+
+    .profession
+    {
+        margin-left: 40px;
+    }
+
+    .titre_recommandation
+    {
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    
+
+    .recommandationdroite
+    {
+        margin-left: 0px;
+    }
+    
+    .figure1
+    {
+        display:none
+    }
+
+    .figure2
+    {
+        display: flex;
+        background-color:#feca07 ;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .metier
+    {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (min-width:900px)and (max-device-width:3000px)
+{
+    .figure1
+    {
+        display: flex;
+    }
+
+    .figure2
+    {
+        display: none;
+    }
+}
