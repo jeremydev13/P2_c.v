@@ -139,6 +139,7 @@
 {
     color:#3c3a3a ;
 }
+
 .main
 {
     width: 70%;
@@ -207,7 +208,7 @@ h3
 {
     margin-left: 50px; 
     width: 70%; 
-    margin-right: 195px;
+    margin-right: 70px;
 }
 .anné
 { 
@@ -270,7 +271,7 @@ p
 
 
 
-@media all and (min-width:300px)and (max-device-width:900px)
+@media all and (min-width:300px)and (max-width:900px)
 {
    .conteneur
    {
@@ -282,7 +283,8 @@ p
    {
        width:100%;
     }
-
+    
+     
     .propos
     {
         margin-bottom: 0px;
@@ -292,7 +294,7 @@ p
         margin-top: 0px;
     }
     
-    .main 
+    .main
     {
         width: 100%;
        padding-left: 0px;
@@ -351,6 +353,7 @@ p
         background-color:#feca07 ;
         justify-content: center;
         padding: 20px;
+        margin: auto;
     }
 
     .metier
@@ -359,7 +362,7 @@ p
     }
 }
 
-@media all and (min-width:900px)and (max-device-width:3000px)
+@media all and (min-width:900px)and (max-width:3000px)
 {
     .figure1
     {
