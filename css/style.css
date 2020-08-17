@@ -6,9 +6,6 @@
     font-weight: 300;
 }
 
-
-
-
 .conteneur
 {
     display:flex;
@@ -28,7 +25,7 @@
 .aside
 {
     width:30%;
-    background-color:RED;
+    background-color:#feca07;
 }
 
 
@@ -50,18 +47,24 @@
     text-align:center;
     padding-bottom: 5px;
     padding-top: 5px;
+    font-style: normal;
+    margin-top: 10px;
 }
 
 
-.contact
+.adresse
 {
     font-size: medium;
+    margin-top: -20px;
 }
+
 
 .paragraphecontact
 {
     padding-left: 50px;
     padding-right: 50px;
+    font-style: normal;
+    padding-top: 1px;
 }
 .paragraphepropos
 {
@@ -71,10 +74,6 @@
     padding-right:50px;
 }   
 
-.contact
-{
-    margin-top: -20px;
-}
 .propos 
 {
     margin-bottom: 700px;
@@ -158,7 +157,7 @@ h1
 .metier
 {
     font-weight: 400;
-    margin-bottom: 90px;
+    margin-bottom: 120px;
 }
 
 
@@ -199,7 +198,7 @@ h3
     border:1px solid #feca07;
     margin-top:-20px;
 }
-.block
+.section
 {
     display:flex;
 }
@@ -235,6 +234,11 @@ h3
 .footer
 {
     display: flex;
+}
+
+.titre_recommandation
+{
+    margin-top: 70px;
 }
 
 
@@ -289,9 +293,10 @@ p
     {
         margin-bottom: 0px;
     }
+
     #titre
     {
-        margin-top: 0px;
+        margin-top: 10px;
     }
     
     .main
@@ -306,12 +311,12 @@ p
         margin-top: 10px;
     }
 
-    .willot
+    .header
     {
         text-align: center;
     }
 
-    .block
+    .section
     {
         display: block;
     }
@@ -333,7 +338,7 @@ p
     .titre_recommandation
     {
         margin-left: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     
 
