@@ -28,7 +28,7 @@
 .aside
 {
     width:30%;
-    background-color:#feca07;
+    background-color:RED;
 }
 
 
@@ -359,6 +359,11 @@ p
     .metier
     {
         margin-bottom: 20px;
+    }
+
+    .center p
+    {
+        text-align: center;
     }
 }
 
